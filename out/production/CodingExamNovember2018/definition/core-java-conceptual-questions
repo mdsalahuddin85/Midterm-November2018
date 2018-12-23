@@ -1,9 +1,30 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A.JAVA is a Programming Language and a Computing Platform for Application Development.
+JAVA Platform is a Collection of Programs that help to Develop and run Programs written in the JAVA Programming Language.
+JAVA Platform includes an execution engine, a compiler, and a set of Libraries.
+
 What jdk contains or composed of and define each components?
-A.
+A.The Java Development Kit (JDK) provides the foundation upon which all applications that are targeted toward the Java platform are built.
+The JDK includes a variety of tools and utilities that perform a variety of tasks, which include compiling source code into bytecode, packaging applications, spinning up Java virtual machines (JVMs) and managing the runtime environment of Java applications.
+  JDK components, tools and utilities
+  The bin directory of the JDK provides a variety of features and tools that aid in the software development process. Some of the more popular JDK utilities include:
+  •	javac: This utility is used to compile Java source code into Java bytecode.
+  •	rmic: This utility creates skeletons and stubs for use in Remote Method
+                Invocation (RMI).
+  •	jar: This compression utility aggregates a multitude of files into a single
+              Java Archive (JAR) file. The jar utility uses a standard compression
+              Algorithm used by all of the most common zip utilities.
+  •	javadoc: This utility can examine the names of classes and the methods
+              contained within a class, as well as consume special annotations in
+              order to create application programming interface (API) documentation
+              for Java code.
+  •	wsgen: This generates various artifacts required by Java API for XML Web
+                   Services (JAX-WS).
+  •	javap: This utility disassembles class files, generating information about the
+                  methods, properties and attributes of a given compiled component.
+
 What is IDE?
 A.
 What are the IDEs available in the market to support java?
