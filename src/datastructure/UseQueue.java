@@ -1,4 +1,7 @@
 package datastructure;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class UseQueue {
 
@@ -9,6 +12,47 @@ public class UseQueue {
 		 * 
 		 */
 
+		Queue<String> queue = new LinkedList<>();
+
+		System.out.println("Adding values using adding methods.......");
+		queue.add("Sydney");
+		queue.add("Melbourne");
+		queue.add("Perth");
+		queue.add("Adelaide");
+
+		System.out.println(queue);
+
+		System.out.println(" ");
+
+		if(queue.peek().equals("Sydney")){ //peek method find the top value
+			System.out.println(queue.poll()); // poll method find the top value and remove
+		}
+		System.out.println(" ");
+		System.out.println("Printout the values using iterator.....");
+
+		Iterator it = queue.iterator() ;
+		while(it.hasNext()){
+			System.out.println(it.next());
+		}
+
+		System.out.println(" ");
+		System.out.println("Removing the values Using remove methods.....");
+		System.out.println(queue.remove("Adelaide"));
+		System.out.println(queue);
+
+		System.out.println(" ");
+		System.out.println("Printout the values using for each loop.....");
+		for (String st : queue
+		) {
+			System.out.println(st);
+
+		}
+
+
+
 	}
 
+
 }
+
+
